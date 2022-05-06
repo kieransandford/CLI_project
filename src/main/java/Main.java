@@ -59,6 +59,7 @@ public class Main {
             switch (command) {
                 case "o" :
                     System.out.println(Options);
+                    break;
 
                 case "f":
                     System.out.println("We will need a destination to make a new flight! Where is it heading to?");

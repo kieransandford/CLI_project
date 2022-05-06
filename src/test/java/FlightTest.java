@@ -118,8 +118,8 @@ public class FlightTest {
 
     @Test
     void flightHasDestinationIDAndPassengers() {
-        assertEquals(flight2.getDestination(), "MOROCCO");
-        assertEquals(5, informationStored.getPassengerArrayList().size());
+        assertEquals(flight2.getDestination(), Destination.MOROCCO);
+        assertEquals(4, informationStored.getPassengerArrayList().size());
     }
 
 
